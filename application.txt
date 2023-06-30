@@ -1,0 +1,79 @@
+2023-06-30 19:21:05.191 INFO  o.s.web.MyProjectApplication - Starting MyProjectApplication using Java 17.0.6 with PID 2716 (C:\Users\kiril\IdeaProjects\spring_boott\target\classes started by kiril in C:\Users\kiril\IdeaProjects\spring_boott)
+2023-06-30 19:21:05.191 INFO  o.s.web.MyProjectApplication - Starting MyProjectApplication using Java 17.0.6 with PID 2716 (C:\Users\kiril\IdeaProjects\spring_boott\target\classes started by kiril in C:\Users\kiril\IdeaProjects\spring_boott)
+2023-06-30 19:21:05.193 INFO  o.s.web.MyProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2023-06-30 19:21:05.193 INFO  o.s.web.MyProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2023-06-30 19:21:05.869 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-30 19:21:05.870 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-06-30 19:21:06.000 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface org.springframework.web.OrderRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-06-30 19:21:06.000 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 127 ms. Found 0 JDBC repository interfaces.
+2023-06-30 19:21:06.008 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-30 19:21:06.009 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-30 19:21:06.063 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+2023-06-30 19:21:06.494 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-06-30 19:21:06.500 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-30 19:21:06.501 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-30 19:21:06.502 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-06-30 19:21:06.632 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-30 19:21:06.632 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1395 ms
+2023-06-30 19:21:06.752 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-30 19:21:06.802 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.5.Final
+2023-06-30 19:21:06.804 INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2023-06-30 19:21:06.932 INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-06-30 19:21:07.049 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-30 19:21:07.062 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-30 19:21:07.184 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@65e92505
+2023-06-30 19:21:07.184 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-30 19:21:07.416 INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-06-30 19:21:07.968 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-30 19:21:08.045 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-30 19:21:08.272 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-30 19:21:08.841 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-06-30 19:21:08.859 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-30 19:21:08.867 INFO  o.s.web.MyProjectApplication - Started MyProjectApplication in 4.135 seconds (process running for 4.633)
+2023-06-30 19:21:08.867 INFO  o.s.web.MyProjectApplication - Started MyProjectApplication in 4.135 seconds (process running for 4.633)
+2023-06-30 19:21:39.458 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-30 19:21:39.460 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-06-30 19:21:39.462 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-06-30 19:21:41.468 INFO  o.s.web.MyProjectApplication - Starting MyProjectApplication using Java 17.0.6 with PID 16764 (C:\Users\kiril\IdeaProjects\spring_boott\target\classes started by kiril in C:\Users\kiril\IdeaProjects\spring_boott)
+2023-06-30 19:21:41.468 INFO  o.s.web.MyProjectApplication - Starting MyProjectApplication using Java 17.0.6 with PID 16764 (C:\Users\kiril\IdeaProjects\spring_boott\target\classes started by kiril in C:\Users\kiril\IdeaProjects\spring_boott)
+2023-06-30 19:21:41.471 INFO  o.s.web.MyProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2023-06-30 19:21:41.471 INFO  o.s.web.MyProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2023-06-30 19:21:42.151 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-30 19:21:42.153 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-06-30 19:21:42.286 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface org.springframework.web.OrderRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-06-30 19:21:42.287 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 130 ms. Found 0 JDBC repository interfaces.
+2023-06-30 19:21:42.294 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-30 19:21:42.294 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-30 19:21:42.348 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+2023-06-30 19:21:42.766 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-06-30 19:21:42.772 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-30 19:21:42.774 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-30 19:21:42.775 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-06-30 19:21:42.846 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-30 19:21:42.847 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1336 ms
+2023-06-30 19:21:42.964 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-30 19:21:43.014 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.5.Final
+2023-06-30 19:21:43.016 INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2023-06-30 19:21:43.147 INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-06-30 19:21:43.265 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-30 19:21:43.279 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-30 19:21:43.400 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@27bbe773
+2023-06-30 19:21:43.401 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-30 19:21:43.626 INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-06-30 19:21:44.178 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-30 19:21:44.259 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-30 19:21:44.489 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-30 19:21:45.062 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-06-30 19:21:45.077 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-30 19:21:45.084 INFO  o.s.web.MyProjectApplication - Started MyProjectApplication in 4.058 seconds (process running for 4.562)
+2023-06-30 19:21:45.084 INFO  o.s.web.MyProjectApplication - Started MyProjectApplication in 4.058 seconds (process running for 4.562)
+2023-06-30 19:22:01.069 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-30 19:22:01.070 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-06-30 19:22:01.070 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-06-30 19:22:01.071 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-06-30 19:22:01.071 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-06-30 19:22:02.926 INFO  o.s.web.OrderController - Fetching order with ID: 1
+2023-06-30 19:22:02.926 INFO  o.s.web.OrderController - Fetching order with ID: 1
+2023-06-30 19:26:33.997 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-30 19:26:34.000 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-06-30 19:26:34.003 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

@@ -1,8 +1,8 @@
 package org.springframework.web;
 
+import ch.qos.logback.core.model.Model;
+import org.hibernate.Hibernate;
 import org.springframework.web.bind.annotation.*;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 import java.util.List;
 
@@ -10,27 +10,38 @@ import java.util.List;
 @RequestMapping("/orders")
 public class OrderController {
     private final OrderRepository orderRepository;
-    private static final Logger LOGGER = LogManager.getLogger(OrderController.class);
+
 
     public OrderController(OrderRepository orderRepository) {
         this.orderRepository = orderRepository;
     }
 
+    private void initializeCollections(Order order) {
+        if (!Hibernate.isInitialized(order.getProducts())) {
+            order.getProducts().size();
+        }
+    }
+
     @GetMapping("/{id}")
-    public Order getOrderById(@PathVariable Long id) {
-        LOGGER.info("Fetching order with ID: {}", id);
-        return orderRepository.findById(id).orElse(null);
+    public Order getById(@PathVariable Long id) {
+        Order order = orderRepository.findById(id).orElse(null);
+        if (order != null) {
+            initializeCollections(order);
+        }
+        return order;
     }
 
-    @GetMapping("/all")
-    public List<Order> getAllOrders() {
-        LOGGER.info("Fetching all orders");
-        return orderRepository.findAll();
+    @GetMapping
+    public List<Order> getAll() {
+        List<Order> orders = orderRepository.findAll();
+        for (Order order : orders) {
+            initializeCollections(order);
+        }
+        return orders;
     }
 
-    @PostMapping("/")
-    public void addOrder(@RequestBody Order order) {
-        LOGGER.info("Adding a new order: {}", order);
+    @PostMapping
+    public void create(@RequestBody Order order) {
         orderRepository.save(order);
     }
 }

@@ -13,10 +13,7 @@
         </encoder>
     </appender>
 
-    <logger name="your.application.package" level="INFO">
-        <appender-ref ref="console" />
-        <appender-ref ref="file" />
-    </logger>
+
 
     <logger name="org.springframework.web" level="INFO">
         <appender-ref ref="console" />
